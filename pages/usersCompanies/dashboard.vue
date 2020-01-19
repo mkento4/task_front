@@ -44,6 +44,16 @@ export default {
           title: "タスクコメント一覧",
           icon: "lightbulb",
           to: { name: "usersCompanies-taskComList" }
+        },
+        {
+          title: "プロジェクト一覧",
+          icon: "lightbulb",
+          to: { name: "usersCompanies-projectList" }
+        },
+        {
+          title: "プロジェクト新規作成",
+          icon: "lightbulb",
+          to: { name: "usersCompanies-createProject" }
         }
       ],
       infoList: ""
